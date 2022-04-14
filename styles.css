@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Intro";
+  src: url(fonts/Intro.ttf) format("truetype");
+  font-weight: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid red;
+}
+
+.main {
+  display: flex;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  background-image: url("images/back.jpg");
+  background-size: cover;
+  background-position: center;
+  width: min(50%, 40vw);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-family: "Intro";
+  font-size: 40px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sleepLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.rightSide {
+  font-family: "Raleway", sans-serif;
+}
