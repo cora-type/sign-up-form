@@ -40,27 +40,53 @@
           <br />
           <br />
         </div>
-        <form>
-          <fieldset>
-            <label for="first_name">first name</label>
-            <input type="text" id="first_name" />
+        <div class="formContainer">
+          <p class="form-title">Let's do this!</p>
+          <div class="input">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" required="" />
+          </div>
 
-            <label for="last_name">last name</label>
-            <input type="text" id="last_name" />
-          </fieldset>
-          <fieldset>
-            <label for="user_email">email</label>
-            <input type="email" id="user_email" name="email" />
-          </fieldset>
+          <div class="input">
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" id="last-name" />
+          </div>
 
-          <fieldset>
-            <label for="user_password">password</label>
-            <input type="password" id="user_password" name="password" />
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required="" />
+          </div>
 
-            <label for="confirm_password"> confirm password</label>
-            <input type="password" id="confirm_password" name="password" />
-          </fieldset>
-        </form>
+          <div class="input">
+            <label for="phone-number">Phone number</label>
+            <input
+              type="text"
+              name="phone-number"
+              id="phone-number"
+              minlength="9"
+              maxlength="9"
+            />
+          </div>
+
+          <div class="input">
+            <label for="password">Password</label>
+            <input type="password" name="passwor" id="passwor" required="" />
+          </div>
+
+          <div class="input">
+            <label for="confirm-password">Confirm password</label>
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+              required=""
+            />
+          </div>
+        </div>
+        <div class="submit-button">
+          <button type="submit">Submit</button>
+        </div>
+        <p class="p2">Already have an account? <span>Log In</span></p>
       </div>
     </div>
   </body>
